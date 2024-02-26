@@ -1,0 +1,108 @@
+[
+  {
+      "id": 1,
+      "title": "Купить молоко",
+      "status": "to_do",
+      "comments": [
+          {
+              "author": "Пользователь",
+              "comment": "Не забудь купить молоко с низким содержанием жира",
+              "date": "2024-02-26"
+          }
+      ],
+      "admin": {
+          "name": "Иван Иванов",
+          "email": "ivan@example.com"
+      }
+  },
+  {
+      "id": 2,
+      "title": "Почистить велосипед",
+      "status": "in_progress",
+      "comments": [],
+      "admin": {
+          "name": "Елена Петрова",
+          "email": "elena@example.com"
+      }
+  },
+  {
+      "id": 3,
+      "title": "Сделать покупки в продуктовом магазине",
+      "status": "to_do",
+      "comments": [],
+      "admin": {
+          "name": "Петр Сидоров",
+          "email": "petr@example.com"
+      }
+  },
+  {
+      "id": 4,
+      "title": "Подготовить презентацию для собрания",
+      "status": "to_do",
+      "comments": [],
+      "admin": {
+          "name": "Анна Козлова",
+          "email": "anna@example.com"
+      }
+  },
+  {
+      "id": 5,
+      "title": "Записаться на курс английского языка",
+      "status": "to_do",
+      "comments": [],
+      "admin": {
+          "name": "Игорь Белов",
+          "email": "igor@example.com"
+      }
+  },
+  {
+      "id": 6,
+      "title": "Поиграть в теннис",
+      "status": "in_progress",
+      "comments": [],
+      "admin": {
+          "name": "Наталия Зайцева",
+          "email": "natalia@example.com"
+      }
+  },
+  {
+      "id": 7,
+      "title": "Починить кран на кухне",
+      "status": "to_do",
+      "comments": [],
+      "admin": {
+          "name": "Дмитрий Иванов",
+          "email": "dmitry@example.com"
+      }
+  },
+  {
+      "id": 8,
+      "title": "Подготовиться к экзамену по математике",
+      "status": "to_do",
+      "comments": [],
+      "admin": {
+          "name": "Мария Смирнова",
+          "email": "maria@example.com"
+      }
+  },
+  {
+      "id": 9,
+      "title": "Провести собрание команды",
+      "status": "to_do",
+      "comments": [],
+      "admin": {
+          "name": "Алексей Кузнецов",
+          "email": "alexey@example.com"
+      }
+  },
+  {
+      "id": 10,
+      "title": "Сделать уборку в комнате",
+      "status": "done",
+      "comments": [],
+      "admin": {
+          "name": "Ольга Новикова",
+          "email": "olga@example.com"
+      }
+  }
+]
