@@ -1,9 +1,8 @@
+@import '~bootstrap/scss/bootstrap';
+
 iframe {
   display: none;
 }
-
-//import bootstrap
-@import '~bootstrap/scss/bootstrap';
 
 html {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -25,4 +24,11 @@ h2 {
 
 hr {
   margin: 0;
+}
+
+.tackBoard {
+  display: flex;
+  height: 80vh;
+  gap: 10px;
+  justify-content: space-between;
 }

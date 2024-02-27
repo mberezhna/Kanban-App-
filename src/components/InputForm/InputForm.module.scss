@@ -1,0 +1,17 @@
+.inputContainer {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+.inputButton {
+  color: #212529;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  background-color: #fff;
+
+  &:hover {
+    background-color: #f8f9fa;
+  }
+}

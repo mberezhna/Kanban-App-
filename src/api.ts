@@ -1,24 +1,24 @@
-const BASE_URL = '';
+import { CommentType } from './type/CommentType';
+import { AdminType } from './type/AdminType';
+
+export interface TodoType {
+  id: number;
+  title: string;
+  status: 'to_do' | 'in_progress' | 'done';
+  comments: CommentType[];
+  admin: AdminType;
+};
+
+const BASE_URL = 'https://github.com/mberezhna/Kanban-App-/blob/main/public/api';
 
 function wait(delay: number): Promise<void> {
   return new Promise(resolve => {
     setTimeout(resolve, delay);
   });
-}
+};
 
-interface Post {
-  title: string;
-  status: string;
-}
-
-function get<T>(url: string): Promise<T> {
-  const fullURL = BASE_URL + url + '.json';
-
+export async function getTodos(): Promise<TodoType[]> {
   return wait(300)
-    .then(() => fetch(fullURL))
-    .then(res => res.json());
-}
-
-export function getPosts(): Promise<Post[]> {
-  return get<Post[]>('/posts');
-}
+    .then(() => fetch(BASE_URL))
+    .then(response => response.json());
+};
